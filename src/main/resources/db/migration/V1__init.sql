@@ -14,6 +14,7 @@ create table users (
     created timestamp default current_timestamp,
     status varchar(255) default 'ACTIVE',
     updated timestamp default current_timestamp,
+    username varchar(255),
     email varchar(255),
     first_name varchar(255),
     last_name varchar(255),
